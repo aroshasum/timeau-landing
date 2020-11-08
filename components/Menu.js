@@ -6,12 +6,14 @@ const Menu = (props) => (
         <div className="inner">
             <ul className="links">
                 <li><Link href="/"><a><span onClick={props.onToggleMenu}>Home</span></a></Link></li>
-                <li><Link href="/landing"><a><span onClick={props.onToggleMenu}>Landing</span></a></Link></li>
-                <li><Link href="/generic"><a><span onClick={props.onToggleMenu}>Generic</span></a></Link></li>
-                <li><Link href="/elements"><a><span onClick={props.onToggleMenu}>Elements</span></a></Link></li>
+                <li><Link href="/features"><a><span onClick={props.onToggleMenu}>Features</span></a></Link></li>
+                <li><Link href="/how-it-works"><a><span onClick={props.onToggleMenu}>How It Works</span></a></Link></li>
+                <li><Link href="/why-timeau"><a><span onClick={props.onToggleMenu}>Why Timeau?</span></a></Link></li>
+                <li><Link href="/pricing"><a><span onClick={props.onToggleMenu}>Pricing</span></a></Link></li>
+                <li><Link href="/demo"><a><span onClick={props.onToggleMenu}>Demo</span></a></Link></li>
+                <li><Link href="/contact-us"><a><span onClick={props.onToggleMenu}>Contact Us</span></a></Link></li>
             </ul>
             <ul className="actions vertical">
-                <li><a href="#" className="button special fit">Get Started</a></li>
                 <li><a href="#" className="button fit">Log In</a></li>
             </ul>
         </div>

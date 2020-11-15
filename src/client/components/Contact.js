@@ -3,7 +3,7 @@ const Contact = (props) => (
         <div className="inner">
             <section>
                 <div style={{paddingBottom: 55}}>
-                    <div>This product development is currently in progress. </div>
+                    <div>Development of this product is currently in progress. </div>
                     <div>Please send your enquiry to <strong>timeautracker@gmail.com</strong> to get early customer benefits!!! </div>
                     <div>Thank you for reaching us!</div>
                 </div>
